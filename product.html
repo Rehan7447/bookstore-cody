@@ -1,0 +1,2533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/pstyles.css">
+	<!-- <link rel="stylesheet" href="./css/styles.css"> -->
+	<link rel="stylesheet" href="./css/slider.css" />
+	<!-- <link rel="stylesheet" href="./css/styles.css"> -->
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+		integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/220e540f2d.js"></script>
+	<script src="./js/slider.js"></script>
+	
+</head>
+
+<body>
+	<header>
+		<div class="header-container">
+			<div class="header-left">
+				<div class="contact-infos">
+					<div class="contact-info">
+						<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.7375 0.115785C19.5459 -0.0200482 19.2942 -0.0383816 19.0859 0.0707851L0.33587 9.86245C0.114204 9.97828 -0.0166296 10.215 0.00170373 10.4641C0.0208704 10.7141 0.186704 10.9275 0.422537 11.0083L5.63504 12.79L16.7359 3.29828L8.14587 13.6475L16.8817 16.6333C16.9467 16.6549 17.015 16.6666 17.0834 16.6666C17.1967 16.6666 17.3092 16.6358 17.4084 16.5758C17.5667 16.4791 17.6742 16.3166 17.7017 16.1341L19.9934 0.717452C20.0275 0.484118 19.9292 0.252452 19.7375 0.115785Z" fill="white"></path>
+                        </svg>
+						<a href="mailto:info@knyga.ca">info@knyga.ca</a>
+					</div>
+					<div class="contact-info">
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.54 2C3.6 2.89 3.75 3.76 3.99 4.59L2.79 5.79C2.38 4.59 2.12 3.32 2.03 2H3.54ZM13.4 14.02C14.25 14.26 15.12 14.41 16 14.47V15.96C14.68 15.87 13.41 15.61 12.2 15.21L13.4 14.02ZM4.5 0H1C0.45 0 0 0.45 0 1C0 10.39 7.61 18 17 18C17.55 18 18 17.55 18 17V13.51C18 12.96 17.55 12.51 17 12.51C15.76 12.51 14.55 12.31 13.43 11.94C13.33 11.9 13.22 11.89 13.12 11.89C12.86 11.89 12.61 11.99 12.41 12.18L10.21 14.38C7.38 12.93 5.06 10.62 3.62 7.79L5.82 5.59C6.1 5.31 6.18 4.92 6.07 4.57C5.7 3.45 5.5 2.25 5.5 1C5.5 0.45 5.05 0 4.5 0Z" fill="white"></path>
+                        </svg>
+						<a href="tel:+16479961787">+16479961787</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-right">
+				<div class="language languages-overlay-open-trigger">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99075 0.833313C4.93075 0.833313 0.833252 4.93998 0.833252 9.99998C0.833252 15.06 4.93075 19.1666 9.99075 19.1666C15.0599 19.1666 19.1666 15.06 19.1666 9.99998C19.1666 4.93998 15.0599 0.833313 9.99075 0.833313ZM16.3433 6.33331H13.6391C13.3458 5.18748 12.9241 4.08748 12.3741 3.06998C14.0608 3.64748 15.4633 4.82081 16.3433 6.33331ZM9.99992 2.70331C10.7608 3.80331 11.3566 5.02248 11.7508 6.33331H8.24909C8.64325 5.02248 9.23909 3.80331 9.99992 2.70331ZM2.90492 11.8333C2.75825 11.2466 2.66659 10.6325 2.66659 9.99998C2.66659 9.36748 2.75825 8.75331 2.90492 8.16665H6.00325C5.92992 8.77165 5.87492 9.37665 5.87492 9.99998C5.87492 10.6233 5.92992 11.2283 6.00325 11.8333H2.90492ZM3.65659 13.6666H6.36075C6.65409 14.8125 7.07575 15.9125 7.62575 16.93C5.93909 16.3525 4.53659 15.1883 3.65659 13.6666ZM6.36075 6.33331H3.65659C4.53659 4.81165 5.93909 3.64748 7.62575 3.06998C7.07575 4.08748 6.65409 5.18748 6.36075 6.33331ZM9.99992 17.2966C9.23909 16.1966 8.64325 14.9775 8.24909 13.6666H11.7508C11.3566 14.9775 10.7608 16.1966 9.99992 17.2966ZM12.1449 11.8333H7.85492C7.77242 11.2283 7.70825 10.6233 7.70825 9.99998C7.70825 9.37665 7.77242 8.76248 7.85492 8.16665H12.1449C12.2274 8.76248 12.2916 9.37665 12.2916 9.99998C12.2916 10.6233 12.2274 11.2283 12.1449 11.8333ZM12.3741 16.93C12.9241 15.9125 13.3458 14.8125 13.6391 13.6666H16.3433C15.4633 15.1791 14.0608 16.3525 12.3741 16.93ZM13.9966 11.8333C14.0699 11.2283 14.1249 10.6233 14.1249 9.99998C14.1249 9.37665 14.0699 8.77165 13.9966 8.16665H17.0949C17.2416 8.75331 17.3333 9.36748 17.3333 9.99998C17.3333 10.6325 17.2416 11.2466 17.0949 11.8333H13.9966Z" fill="white"></path>
+                    </svg>
+
+                    
+                    <p class="language-name">Canada/Eng</p>
+                    
+
+                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.6665 1L6.99984 6.33333L12.3332 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+			</div>
+
+		</div>
+	</header>
+	<nav class="navbar navbar-expand-lg  ">
+		<div class="container-fluid">
+			<a href="/en/" class="logo">
+				<img src="./img/logo 1.png" alt="Not found">
+				KNYGA.ca
+			</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"><i class="fa fa-bars fa-lg"></i></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			
+			
+		  </ul>
+		
+			<ul class="nav-list my-2 my-lg-0">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Books &nbsp;
+						<svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12.8333 1.50006L6.99992 7.3334L1.16659 1.50006" stroke="#3A3A3A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg>
+					</a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</li>
+				<li>
+					<a href="" class="gifts">Gifts & Toys</a>  
+				  </li>
+				<li class="shopping-cart">
+					<a href="">
+						<svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1.36505H2.60917C3.07837 1.36505 3.31297 1.36505 3.50498 1.44927C3.67429 1.52354 3.8197 1.64329 3.92506 1.79522C4.04454 1.96752 4.08952 2.19777 4.17949 2.65826L4.52068 4.40464M4.52068 4.40464L5.32684 8.53093C5.5217 9.5283 5.61913 10.027 5.88283 10.3871C6.11511 10.7043 6.43574 10.946 6.80462 11.082C7.2234 11.2364 7.72964 11.1928 8.74211 11.1055L18.4817 10.2665C19.129 10.2108 19.4526 10.1829 19.716 10.0819C20.3019 9.85727 20.7485 9.37059 20.922 8.76749C21 8.49648 21 8.17164 21 7.52196V7.52196C21 6.83623 21 6.49337 20.9157 6.21225C20.7279 5.58608 20.2459 5.09123 19.6249 4.88698C19.3461 4.79528 19.0033 4.78625 18.3178 4.76819L4.52068 4.40464Z" stroke="#333" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+							<ellipse cx="8.31694" cy="15.6945" rx="1.95122" ry="1.73691" stroke="#333" stroke-width="1.8"></ellipse>
+							<ellipse cx="17.5855" cy="15.6945" rx="1.95122" ry="1.73691" stroke="#333" stroke-width="1.8"></ellipse>
+						</svg>
+					</a>
+	
+					<div class="total-shopping-cart-items">0</div>
+				</li>
+			</ul>
+		  
+		</div>
+	</div>
+	  </nav>	
+
+	 <section class="book-section">
+		<div class="container-fluid">
+			<div id="myresult" class="img-zoom-result"></div>
+			<div class="row">
+				<div class="col-lg-6 col-md-12 mb-5" id="bk-c">
+					<div class="first-container">
+						<div class="imglist">
+							<div class="all-books" id="book-variety">
+								<div class="book-container book-active" id="1" data-id="1"  onclick="changeBorder(1)">
+									<img src="./img/book.png" alt="" id="image-1">
+								</div>
+								<div class="book-container" id="2" data-id="2" onclick="changeBorder(2)" >
+									<img src="./img/book.png" alt="" id="image-2">
+								</div>
+								<div class="book-container" id="3" data-id="3" onclick="changeBorder(3)">
+									<img src="./img/book.png" alt="" id="image-3">
+								</div>
+								<div class="book-container" id="4" data-id="4" onclick="changeBorder(4)">
+									<img src="./img/book.png" alt="" id="image-4">
+								</div>
+								<div class="book-container" id="5" data-id="5" onclick="changeBorder(5)">
+									<img src="./img/book.png" alt="" id="image-5">
+								</div>
+								<div class="book-container" id="6" data-id="6" onclick="changeBorder(6)">
+									<img src="./img/book.png" alt="" id="image-6">
+								</div>
+							</div>
+							<div class="scroll-icon" id="scroll-down" >
+								<img src="./img/Vector (1).png" alt=""  >
+							</div>
+						</div>
+						<div class="big-img-container">
+							<img src="./img/book.png" alt="" id="big-img" onmouseenter="showresult()" onmouseout="hideresult()">
+							<a class="zoom-text" onclick="on()"><img src="./img/zoom-icon.png" alt=""> Scroll to zoom  </a>
+									
+						</div>
+						<div class="heart-icon-container col-1 col-sm-1 col-md-1 col-xl-1 col-lg-1">
+                                <img src="./img/heart.png" alt="">
+                            </div>
+					</div>
+						
+					
+				</div>
+
+		
+
+				 <div class="col-lg-6 col-md-12"> 
+					<div class="book-content-container">
+						<p class="heading">Big book of rabbit stories (summer)</p>
+						<p id="mywriter" class="writer">by <span class="writer-name">Genevieve Yuri</span></p>
+						<div class="row">
+							<div class="col-6 col-md-5">
+								<p class="pub-gen">Publisher</p>
+								<p class="writer-name pub-gen-name">Ridna Mova</p>
+							</div>
+							<div class="col-6 col-md-7">
+								<p class="pub-gen">Genre</p>
+								<p class="writer-name pub-gen-name">Tales, Children's fiction</p>
+							</div>
+						</div>
+						<p class="myprice ">Price </p>
+						<div class="price-container">
+
+							<p class="price">$80.96</p>
+							<p class="cut-price">$96.36</p>
+
+						</div>
+						<div class="b-container">
+							<div class="row">
+								<div class="col-6 d-flex col-md-5">
+									<p class=" b-writer">Language:</p>
+									<p id="simple-txt" style="color: black;">Ukranian</p>
+								</div>
+								<div class="col-6 d-flex col-md-7">
+									<p class="b-writer">Edition:</p>
+									<p id="simple-txt" style="color: black;">2020</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-6 d-flex col-md-5">
+									<p class="b-writer">Binding:</p>
+									<p id="simple-txt" style="color: black;">Hard</p>
+								</div>
+								<div class="col-6 d-flex col-md-7">
+									<p class=" b-writer">Pages:</p>
+									<p id="simple-txt" style="color: black;">352</p>
+								</div>
+							</div>
+						</div>
+						<div class="btn-container">
+							<div class="row">
+								<div class="col-6 col-md-5">
+									<button class="my-btn bg-white">Add to Cart</button>
+								</div>
+								<div class="col-6 col-md-5">
+									<button class="my-btn nav-bg buy-btn">Buy Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</section> 
+
+	 <section class="book-description"> 
+		<div class="container-fluid">
+			<p class="description-heading">
+				Book description
+			</p>
+			<p class="description">
+				In one rabbit family, cute but very restless rabbits grow up - four sons and a daughter. They do not
+				calm down for a moment and from time to time get into amazing adventures. If you haven't met this
+				unusual family yet, open the book. Incredible stories await you!
+			</p>
+			<div class="row">
+				<div class="col-md-12 col-lg-5">
+					<div class="d-flex flex-row">
+						<div class="mt-minus">
+							<img src="./img/Pointer grp.png" alt="" >
+						</div>
+					
+						<p class="book-des-text" id="des-1">
+							Series: <span class="b-span"> Rabbit Stories, Masterpieces of
+								children's literature in the native language</span>
+						</p>
+					</div>
+					<div>
+						<div class="d-flex flex-row ">
+							<div class="mt-minus">
+								<img src="./img/Pointer grp.png" alt="" >
+							</div>
+							<p class="book-des-text p2">
+								Category: <span class="b-span"> Books for kids</span>
+							</p>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="col-md-12 col-lg-4">
+					<div class="d-flex flex-row">
+						<div class="mt-minus">
+							<img src="./img/Pointer grp.png" alt="" >
+						</div>
+						<p class="book-des-text">
+							Illustrator: <span class="b-span"> Loic Juannigo</span>
+						</p>
+					</div>
+					<div class="d-flex flex-row">
+						<div class="mt-minus">
+							<img src="./img/Pointer grp.png" alt="" >
+						</div>
+						<p class="book-des-text">
+							Translator: <span class="b-span"> Vladimir Herman</span>
+						</p>
+					</div>
+					<div class="d-flex flex-row">
+						<div class="mt-minus">
+							<img src="./img/Pointer grp.png" alt="" >
+						</div>
+						<p class="book-des-text">
+							Voice over artist: <span class="b-span"> Dorj Batu</span>
+						</p>
+					</div>
+
+				</div>
+				<div class="col-md-12 col-lg-3">
+					<div class="d-flex flex-row">
+						<div class="mt-minus">
+							<img src="./img/Pointer grp.png" alt="" >
+						</div>
+						<p class="book-des-text">
+							Weight: <span class="b-span"> 0.85 kg</span>
+						</p>
+					</div>
+					<div class="d-flex flex-row">
+						<div class="mt-minus">
+							<img src="./img/Pointer grp.png" alt="" >
+						</div>
+						<p class="book-des-text">
+							Size: <span class="b-span"> 17.0x24.0 cm</span>
+						</p>
+					</div>
+					<div class="d-flex flex-row">
+						<div class="mt-minus">
+							<img src="./img/Pointer grp.png" alt="" >
+						</div>
+						<p class="book-des-text">
+							ISBN: <span class="b-span"> 978-966-917-108-5s</span>
+						</p>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section> 
+
+	 <section class="audio-section"> 
+		<div class="container-fluid">
+
+
+			<p class="description-heading">
+				Listen to audio files
+			</p>
+			<div class="audio-container">
+				<div class="audio-content">
+					<p class="audio-extension" id="0">Intro.mp3</p>
+					<audio controls controlsList="nodownload">
+						<source src="./audio/song1.mp3" type="audio/mp3">
+					</audio>
+				</div>
+				<div class="audio-content">
+					<p class="audio-extension" id="1">Ch 1.mp3</p>
+					<audio controls controlsList="nodownload">
+						<source src="./audio/song1.mp3" type="audio/mp3">
+					</audio>
+				</div>
+				<div class="audio-content">
+					<p class="audio-extension" id="2">Ch 2.mp3</p>
+					<audio controls controlsList="nodownload">
+						<source src="./audio/song1.mp3" type="audio/mp3">
+					</audio>
+				</div>
+				<div class="audio-content">
+					<p class="audio-extension" id="3">Ch 3.mp3</p>
+					<audio controls controlsList="nodownload">
+						<source src="./audio/song1.mp3" type="audio/mp3">
+					</audio>
+				</div>
+				<div class="audio-content">
+					<p class="audio-extension" id="4">Ch 4.mp3</p>
+					<audio controls controlsList="nodownload">
+						<source src="./audio/song1.mp3" type="audio/mp3">
+					</audio>
+				</div>
+
+
+			</div>
+		</div>
+	</section> 
+
+	 <section class="video-section"> 
+		<div class="container-fluid">
+
+
+			<p class="description-heading">
+				Video message from the author
+			</p>
+			<video class="my-video" controls poster="./img/Video.png"
+				style="object-fit:cover; width:100%; height:400px;">>
+				<source src="./audio/videoplayback.mp4" type="Video/mp4">
+			</video>
+			</iframe>
+		</div>
+
+	</section> 
+
+	<div class="" style="padding-left: 0; padding-right: 0">
+			<div class="heading-area">
+				<h2 class="heading">Other books by the author</h2>
+				<a href="" class="view-all">View all</a>
+			</div>
+
+			<!-- FIRST CAROUSAL START HERE-->
+			<div
+				id="carouselExampleIndicators"
+				class="carousel slide flex"
+				data-ride="carousel"
+				data-interval="false"
+			>
+				<ol class="carousel-indicators">
+					<li
+						data-target="#carouselExampleIndicators"
+						data-slide-to="0"
+						class="active"
+					>
+						<div></div>
+					</li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1">
+						<div></div>
+					</li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2">
+						<div></div>
+					</li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="3">
+						<div></div>
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<a
+						class="carousel-control-prev"
+						href="#carouselExampleIndicators"
+						role="button"
+						data-slide="prev"
+					>
+						<div class="prev-area flex">
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+						</div>
+						<span class="sr-only">Previous</span>
+					</a>
+					<div class="carousel-item active">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart1"
+													onclick="like1()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text1" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart2"
+													onclick="like2()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text2" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart3"
+													onclick="like3()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text3" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart4"
+													onclick="like4()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text4" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart5"
+													onclick="like5()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text5" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart6"
+													onclick="like6()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text6" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart7"
+													onclick="like7()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text7" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart8"
+													onclick="like8()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text8" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart9"
+													onclick="like9()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text9" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart10"
+													onclick="like10()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text10" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart11"
+													onclick="like11()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text11" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart12"
+													onclick="like12()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text12" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart13"
+													onclick="like13()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text13" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart14"
+													onclick="like14()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text14" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart15"
+													onclick="like15()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text15" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="great-stories-for-children-original-imafzz5cnps52tbp 2 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart16"
+													onclick="like16()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Great Stories for Children</span>
+									<span class="subtitle">By Ruskin Bond</span>
+									<h4 class="cost">
+										$56.12<span class="cut-cost">$69.36</span>
+									</h4>
+									<p id="text16" class="card-text">
+										The short stories featured in this book introduce readers to
+										new worlds and interesting people. First up, there's
+										Tutu....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+					class="carousel-control-next"
+					href="#carouselExampleIndicators"
+					role="button"
+					data-slide="next"
+				>
+					<div class="next-area flex">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					</div>
+					<span class="sr-only">Next</span>
+				</a>
+				</div>				
+			</div>
+			<!-- FIRST CAROUSAL END HERE-->
+
+			<a href="" class="view-all-response"
+				>View all other books by the author ></a
+			>
+
+			<div class="heading-area-2">
+				<h2 class="heading">Other books by the publisher</h2>
+				<a href="" class="view-all">View all</a>
+			</div>
+
+			<!-- SECOND CAROUSAL START HERE-->
+			<div
+				id="carouselExampleIndicators1"
+				class="carousel slide flex"
+				data-ride="carousel"
+				data-interval="false"
+			>
+				<ol class="carousel-indicators">
+					<li
+						data-target="#carouselExampleIndicators1"
+						data-slide-to="0"
+						class="active"
+					>
+						<div></div>
+					</li>
+					<li data-target="#carouselExampleIndicators1" data-slide-to="1">
+						<div></div>
+					</li>
+
+					<li data-target="#carouselExampleIndicators1" data-slide-to="2">
+						<div></div>
+					</li>
+					<li data-target="#carouselExampleIndicators1" data-slide-to="3">
+						<div></div>
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<a
+					class="carousel-control-prev"
+					href="#carouselExampleIndicators1"
+					role="button"
+					data-slide="prev"
+				>
+					<div class="prev-area flex">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					</div>
+					<span class="sr-only">Previous</span>
+				</a>
+					<div class="carousel-item active">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart17"
+													onclick="like17()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text17" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart18"
+													onclick="like18()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text18" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart19"
+													onclick="like19()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text19" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart20"
+													onclick="like20()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text20" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart21"
+													onclick="like21()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text21" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart22"
+													onclick="like22()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text22" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart23"
+													onclick="like23()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text23" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart24"
+													onclick="like24()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text24" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart25"
+													onclick="like25()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text25" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart26"
+													onclick="like26()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text26" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart27"
+													onclick="like27()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text27" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart28"
+													onclick="like28()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text28" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart29"
+													onclick="like29()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text29" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart30"
+													onclick="like30()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text30" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart31"
+													onclick="like31()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text31" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="rich-dad-poor-dad-original-imafxf885pytvycy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart32"
+													onclick="like32()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title">Rich Dad Poor Dad</span>
+									<span class="subtitle">By Kiyosaki Robert T.</span>
+									<h4 class="cost">
+										$48.15<span class="cut-cost">$52.00</span>
+									</h4>
+									<p id="text32" class="card-text">
+										Rich Dad Poor Dad is a book written by Robert Kiyasaki that
+										focuses on financial literacy, financial independence,
+										build.....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+					class="carousel-control-next"
+					href="#carouselExampleIndicators1"
+					role="button"
+					data-slide="next"
+				>
+					<div class="next-area flex">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					</div>
+					<span class="sr-only">Next</span>
+				</a>
+				</div>			
+			</div>
+			<!-- SECOND CAROUSAL END HERE-->
+
+			<a href="" class="view-all-response"
+				>View all other books by the publisher ></a
+			>
+
+			<div class="heading-area-2">
+				<h2 class="heading">Similar Books</h2>
+				<a href="" class="view-all">View all</a>
+			</div>
+
+			<!-- THIRD CAROUSAL START HERE-->
+			<div
+				id="carouselExampleIndicators2"
+				class="carousel slide flex"
+				data-ride="carousel"
+				data-interval="false"
+			>
+				<ol class="carousel-indicators">
+					<li
+						data-target="#carouselExampleIndicators2"
+						data-slide-to="0"
+						class="active"
+					>
+						<div></div>
+					</li>
+					<li data-target="#carouselExampleIndicators2" data-slide-to="1">
+						<div></div>
+					</li>
+					<li data-target="#carouselExampleIndicators2" data-slide-to="2">
+						<div></div>
+					</li>
+					<li data-target="#carouselExampleIndicators2" data-slide-to="3">
+						<div></div>
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<a
+					class="carousel-control-prev"
+					href="#carouselExampleIndicators2"
+					role="button"
+					data-slide="prev"
+				>
+					<div class="prev-area flex">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					</div>
+					<span class="sr-only">Previous</span>
+				</a>
+					<div class="carousel-item active">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart33"
+													onclick="like33()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text33" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart34"
+													onclick="like34()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text34" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart35"
+													onclick="like35()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text35" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart36"
+													onclick="like36()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text36" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart37"
+													onclick="like37()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text37" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart38"
+													onclick="like38()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text38" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart39"
+													onclick="like39()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text39" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart40"
+													onclick="like40()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text40" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart41"
+													onclick="like41()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text41" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart42"
+													onclick="like42()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text42" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart43"
+													onclick="like43()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text43" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart44"
+													onclick="like44()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text44" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart45"
+													onclick="like45()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text45" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart46"
+													onclick="like46()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text46" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart47"
+													onclick="like47()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text47" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-6" style="float: left">
+							<div class="card">
+								<div class="card-body">
+									<div class="flex">
+										<div style="position: relative" class="flex">
+											<img
+												class="book-cover image1"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1.png"
+												alt="Card image cap"
+											/>
+											<img
+												class="book-cover image2"
+												src="harry-potter-and-the-chamber-of-secrets-original-imafhqpngjfyjezy 1 mob.png"
+												alt="Card image cap"
+											/>
+											<div class="circle">
+												<i
+													id="heart48"
+													onclick="like48()"
+													class="fa fa-heart-o"
+													aria-hidden="true"
+												></i>
+											</div>
+										</div>
+									</div>
+									<span class="title"
+										>Harry Potter and the Chamber of Secrets</span
+									>
+									<span class="subtitle">By Rowling J.K.</span>
+									<h4 class="cost">
+										$23.18<span class="cut-cost">$35.36</span>
+									</h4>
+									<p id="text48" class="card-text">
+										Harry Potters summer has included the worst birthday ever,
+										doomy warnings from a house-elf called Dobby, and rescue
+										from....
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+					class="carousel-control-next"
+					href="#carouselExampleIndicators2"
+					role="button"
+					data-slide="next"
+				>
+					<div class="next-area flex">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					</div>
+					<span class="sr-only">Next</span>
+				</a>
+				</div>
+				
+				
+			</div>
+			<!-- THIRD CAROUSAL END HERE-->
+
+			<a href="" class="view-all-response">View all similar books ></a>
+		</div>
+
+ <footer> 
+		<div class="container-fluid">
+			<a href="/en/" class="logo">
+				<img src="./img/logo 1.png" alt="Not found">
+				KNYGA.ca
+			</a>
+			<div class="row">
+				<div class="col-md-6 f-c-1">
+					<ul class="footer-list">
+						<li>Online store of modern contemporary Ukrainian books and gifts</li>
+						<li>Sales and delivery of Ukrainian books in Canada, USA and Mexico</li>
+						<li> Children's literature, business books, books for personal development</li>
+					</ul>
+					<div class="social-icons">
+						<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+						<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="col-md-6 f-c ">
+					<div class="row">
+						<div class="col-12 footer-content">
+							<div class="first-content">
+								<p class="seller" id="p-1">Best Sellers</p>
+								<p class="arrival" id="p-2">New Arrivals</p>
+								<p class="b-kids hide1" id="p-3">Books for kids</p>
+							</div>
+							<div class="second-content">
+								<p class="b-kids hide2">Books for kids</p>
+								<p class="b-adults">Books for adults</p>
+								<p class="gifts">Gifts & Toys</p>
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<p class="footer-rights">
+						@2021 KNYGA.ca - Ukrainian bookstore in Canada, US and Mexico.
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer> 
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+		<script src="./js/index.js"></script>
+	<script type="text/javascript">
+		
+		let y = 0;
+		var x = document.getElementsByTagName('audio')
+		for (let i = 0; i < x.length; i++) {
+			x[i].onplaying = function () {
+
+				document.getElementById(i).style.color = "#FF2DA4"
+			}
+			x[i].onpause = function () {
+				document.getElementById(i).style.color = "rgba(0, 0, 0, 0.8)"
+			}
+		}
+		function changeBorder(id){
+			var smallbooks=document.getElementsByClassName('book-container')
+  console.log(id)
+for(let i=0;i<smallbooks.length;i++){
+  var dataid= $(smallbooks[i]).data("id");
+  if(dataid==id){
+    var element=document.getElementById(dataid);
+   element.classList.add("book-active")
+   var imgid="image-"+dataid;
+   var imgsrc=document.getElementById(imgid).src;
+    document.getElementById('big-img').src=imgsrc
+  }else{
+    var element=document.getElementById(dataid)
+    element.classList.remove("book-active")
+  }
+}
+
+}
+
+		imageZoom("big-img", "myresult");
+	</script>
+</body>
+
+</html>
